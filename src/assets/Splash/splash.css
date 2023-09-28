@@ -1,0 +1,52 @@
+
+.hero {
+    top: 6rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+}
+
+.hero-wrapper {
+    width: 90%;
+    height: inherit;
+}
+
+.hero-row {
+    height: 24vh;
+    min-height: 10rem;
+}
+
+.hero-row-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: inherit;
+    /* overflow: hidden; */
+    font-weight: 100;
+    color: whitesmoke;
+    font-family: 'Syne', sans-serif;
+}
+
+.hero-row-text h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: 8vw;
+}
+
+.hero-row-separator {
+    border: 1px solid gray;
+}
+
+#est {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .5px;
+}
+
+.coordinates {
+    font-size: 1.25rem;
+}

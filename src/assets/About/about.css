@@ -1,0 +1,49 @@
+
+.about-body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-body-div {
+    top: 6rem;
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    background-color: #242424;
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-row {
+    height: 22vh;
+    min-height: 10rem;
+}
+
+.about-row-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: inherit;
+    overflow: hidden;
+    font-weight: 100;
+    color: whitesmoke;
+    font-family: 'Syne', sans-serif;
+}
+
+.about-row-text h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: 8vw;
+}
+
+.lorem-div {
+    width: 75%;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2vw;
+    font-style: italic;
+    margin-bottom: 2em;
+}
