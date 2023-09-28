@@ -8,7 +8,7 @@
     top: 6rem;
     position: fixed;
     width: 90%;
-    height: 100%;
+    height: 100vh;
     background-color: #242424;
     font-family: 'Syne', sans-serif;
     display: flex;

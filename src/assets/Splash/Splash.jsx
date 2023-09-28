@@ -20,14 +20,14 @@ function Splash() {
           <div className="hero-row">
             <div className="hero-row-text">
               <h1>Front-End</h1>
-              <h1></h1>
+              <p className="coordinates">• N 40.7305°, W 73.9515°</p>
             </div>
             <div className="hero-row-separator"></div>
           </div>
           <div className="hero-row">
             <div className="hero-row-text">
               <h1>Software Engineer</h1>
-              <p className="coordinates">• N 40.7305°, W 73.9515°</p>
+              <p className="coordinates">© 2023</p>
             </div>
             <div className="hero-row-separator"></div>
           </div>

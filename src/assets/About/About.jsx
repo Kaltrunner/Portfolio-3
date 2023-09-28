@@ -12,6 +12,39 @@ function About() {
           <div className="about-row">
             <div className="about-row-text">
               <h1>ABOUT ME!</h1>
+              <p className="nav-text" id="nav-under-line">
+                <a
+                  className="pseudo-text-effect"
+                  href="https://github.com/Kaltrunner"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-after="GitHub"
+                >
+                  <span>GitHub</span>
+                </a>
+              </p>
+              <p className="nav-text" id="nav-under-line">
+                <a
+                  className="pseudo-text-effect"
+                  href="https://www.linkedin.com/in/erik-russell-software-engineer/"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-after="LinkedIn"
+                >
+                  <span>LinkedIn</span>
+                </a>
+              </p>
+              <p className="nav-text" id="nav-under-line">
+                <a
+                  className="pseudo-text-effect"
+                  href="Erik Russell - Resume.pdf"
+                  download="Erik Russell - Resume"
+                  rel="noreferrer"
+                  data-after="Resume"
+                >
+                  <span>Resume</span>
+                </a>
+              </p>
             </div>
             <div className="hero-row-separator"></div>
           </div>

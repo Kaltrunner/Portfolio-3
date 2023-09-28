@@ -1,3 +1,7 @@
+.slpashnav-wrap {
+  display: flex;
+  justify-content: center;
+}
 
 .splashNav-body-div {
     width: 90%;
@@ -6,15 +10,14 @@
     position: fixed;
     background-color: #242424;
     overflow: hidden;
-    padding-left: 5vw;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-between
 }
 
 .splashNav-body-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #link {
