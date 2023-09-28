@@ -17,8 +17,8 @@
 }
 
 .about-row {
+    font-size: 12vh;
     height: 22vh;
-    min-height: 10rem;
 }
 
 .about-row-text {
@@ -36,14 +36,22 @@
     padding: 0;
     margin: 0;
     font-weight: 100;
-    font-size: 8vw;
+    font-size: inherit;
+    line-height: 1;
 }
 
-.lorem-div {
+.about-lorem-div {
     width: 75%;
-    color: whitesmoke;
+}
+
+.about-lorem-div p {
     font-weight: 100;
-    font-size: 2vw;
+    font-size: 3vw;
+    line-height: 1.25;
     font-style: italic;
-    margin-bottom: 2em;
+    color: whitesmoke;
+}
+
+.about-row-separator {
+    border: 1px solid gray;
 }

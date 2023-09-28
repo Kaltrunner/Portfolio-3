@@ -17,8 +17,8 @@
 }
 
 .hero-row {
+    font-size: 12vh;
     height: 22vh;
-    min-height: 10rem;
 }
 
 .hero-row-text {
@@ -26,7 +26,8 @@
     justify-content: space-between;
     align-items: flex-end;
     height: inherit;
-    /* overflow: hidden; */
+    width: 100%;
+    overflow: hidden;
     font-weight: 100;
     color: whitesmoke;
     font-family: 'Syne', sans-serif;
@@ -36,7 +37,8 @@
     padding: 0;
     margin: 0;
     font-weight: 100;
-    font-size: 8vw;
+    font-size: inherit;
+    line-height: 1;
 }
 
 .hero-row-separator {

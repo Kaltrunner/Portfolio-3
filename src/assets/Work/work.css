@@ -17,8 +17,21 @@
 }
 
 .work-row {
+    font-size: 12vh;
     height: 22vh;
-    min-height: 10rem;
+}
+
+.sub-work-row {
+    font-size: 3vh;
+    height: 4vh;
+}
+
+#sub-work-row-text-header {
+    font-size: 2vh;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #F8937C;
 }
 
 .work-row-text {
@@ -32,9 +45,190 @@
     font-family: 'Syne', sans-serif;
 }
 
+.sub-work-row-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Syne', sans-serif;
+    mix-blend-mode: difference;
+}
+
 .work-row-text h1 {
     padding: 0;
     margin: 0;
     font-weight: 100;
-    font-size: 8vw;
+    font-size: inherit;
+    line-height: 1;
 }
+
+.sub-work-row-text p {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: inherit;
+    line-height: 1;
+}
+
+.work-lorem-div {
+    width: 75%;
+}
+
+.work-lorem-div p {
+    font-weight: 100;
+    font-size: 3vw;
+    line-height: 1.25;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.work-row-separator {
+    border: 1px solid gray;
+}
+
+#row-1 {
+    transition: .25s ease-out;
+}
+
+#row-1:hover {
+    cursor: pointer;
+    background-color: #F8937C;
+    color:#242424;
+    mix-blend-mode: difference;
+}
+
+.hidden-span {
+    display: none;
+  }
+
+  .hidden-helvetica, .hidden-new, .hidden-green, .hidden-kalt, .hidden-sid, .hidden-muse, .hidden-rudy {
+    text-decoration: none;
+    font-size: 3vh;
+    height: 4vh;
+  }
+
+  .hidden-helvetica:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 35%;
+  }
+
+  .hidden-new:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 45%;
+    left: 30%;
+  }
+
+  .hidden-green:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+    left: 45%;
+  }
+
+  .hidden-green {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-green:hover .hidden-span {
+    display: block;
+    position: absolute;
+    transform: rotate(90deg);
+  }
+
+  .hidden-kalt:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 30%;
+    left: 45%;
+  }
+
+  .hidden-kalt {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-kalt:hover .hidden-span {
+    display: block;
+    position: absolute;
+  }
+
+  .hidden-sid:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 25%;
+    left: 35%;
+  }
+
+  .hidden-sid {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-sid:hover .hidden-span {
+    display: block;
+    position: absolute;
+  }
+
+  .hidden-muse:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 25%;
+  }
+
+  .hidden-muse {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-muse:hover .hidden-span {
+    display: block;
+    position: absolute;
+  }
+
+  .hidden-rudy:hover .hidden-span {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 45%;
+  }
+
+  .hidden-rudy {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-rudy:hover .hidden-span {
+    display: block;
+    position: absolute;
+  }
+
+  .hidden-img {
+    width: 38vw;
+    min-width: 18rem;
+    z-index: -99;
+    cursor: pointer;
+  }
