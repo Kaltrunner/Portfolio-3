@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./work.css";
 import CompNav from "../CompNav/CompNav";
 import Mouse from "../Mouse";
@@ -96,15 +96,29 @@ function Work() {
                 <p>2023</p>
                 <span className="hidden-span">
                   <a
+                    className="hidden-span-link"
                     href="https://rudy.onrender.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot 2023-09-28 at 6.19.22 PM.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot 2023-09-28 at 6.19.22 PM.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -119,11 +133,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot 2023-09-28 at 6.15.14 PM.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot 2023-09-28 at 6.15.14 PM.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -138,11 +165,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot 2023-09-28 at 5.10.54 PM.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot 2023-09-28 at 5.10.54 PM.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -157,11 +197,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot 2023-09-28 at 4.57.18 PM.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot 2023-09-28 at 4.57.18 PM.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -179,11 +232,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot-the-green-square.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot-the-green-square.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -198,11 +264,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot 2023-09-01 at 2.29.17 PM.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot 2023-09-01 at 2.29.17 PM.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>
@@ -218,11 +297,24 @@ function Work() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      className="hidden-img"
-                      src="Screenshot-font-app.png"
-                      alt=""
-                    />
+                    <div className="tilt-box-wrap">
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <span className="t-over"></span>
+                      <div className="tilt-box">
+                        <img
+                          className="hidden-img"
+                          src="Screenshot-font-app.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </a>
                 </span>
               </div>

@@ -52,6 +52,11 @@
     color: whitesmoke;
 }
 
+.lorem-line {
+    padding: 0;
+    margin: 0;
+}
+
 .about-row-separator {
     border: 1px solid gray;
 }

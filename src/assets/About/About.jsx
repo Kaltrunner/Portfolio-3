@@ -8,13 +8,13 @@ function About() {
   useEffect(() => {
     const hero = document.querySelector(".about-body-container");
     const heroTitles = hero.querySelectorAll(".about-row-text > h1");
-    const subHeroTitles = hero.querySelectorAll(".about-lorem-div > p");
     const heroSeparator = hero.querySelectorAll(".about-row-separator");
+    const loremLines = hero.querySelectorAll(".lorem-line");
 
     const initHero = () => {
       gsap.set(heroTitles, { y: "101%" });
-      gsap.set(subHeroTitles, { y: "60%" });
       gsap.set(heroSeparator, { width: 0 });
+      gsap.set(loremLines, { y: "101%" });
     };
 
     const showHero = () => {
@@ -30,13 +30,13 @@ function About() {
           0
         )
         .fromTo(
-          subHeroTitles, // Select the subHeroTitles
+          loremLines,
           {
-            opacity: 0, // Start from 0 opacity
+            opacity: 0,
           },
           {
             duration: 1,
-            opacity: 1, // Animate opacity to 1 for full visibility
+            opacity: 1,
             y: 0,
             stagger: 0.055,
           },
@@ -70,7 +70,7 @@ function About() {
 
     initHero();
     showHero();
-  }, []); // Empty dependency array ensures this code runs only once after initial render
+  }, []);
 
   window.onload = () => {
     initHero();
@@ -123,13 +123,31 @@ function About() {
           </div>
           <div className="about-lorem-div">
             <p className="lorem">
-              I'm a Flatiron School graduate and front-end engineer with a
-              background in screen printing. My passion lies in merging design
-              and technology to create user-friendly interfaces that prioritize
-              usability. I draw from best practices to ensure efficient and
-              enjoyable navigation experiences. My goal is to bridge the gap
-              between art and technology, crafting visually appealing and
-              functional solutions.
+              <p className="lorem-line">
+                I'm a Flatiron School graduate and front-end{" "}
+              </p>
+              <p className="lorem-line">
+                engineer with a background in screen printing. My
+              </p>{" "}
+              <p className="lorem-line">
+                passion lies in merging design and technology to
+              </p>{" "}
+              <p className="lorem-line">
+                create user-friendly interfaces that prioritize
+              </p>
+              <p className="lorem-line">
+                usability. I draw from best practices to ensure
+              </p>
+              <p className="lorem-line">
+                efficient and enjoyable navigation experiences. My
+              </p>
+              <p className="lorem-line">
+                goal is to bridge the gap between art and
+              </p>
+              <p className="lorem-line">
+                technology, crafting visually appealing and
+              </p>
+              <p className="lorem-line">functional solutions.</p>
             </p>
           </div>
         </div>
