@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "./work.css";
 import CompNav from "../CompNav/CompNav";
 import Mouse from "../Mouse";
