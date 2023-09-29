@@ -245,7 +245,8 @@ function Work() {
                       <div className="tilt-box">
                         <img
                           className="hidden-img"
-                          src="Screenshot-the-green-square.png"
+                          id="hidden-green"
+                          src="chrome-capture-2023-8-29.gif"
                           alt=""
                         />
                       </div>
@@ -289,7 +290,6 @@ function Work() {
             <div className="hidden-helvetica">
               <div className="sub-work-row-text" id="row-1">
                 <p>Helvetica</p>
-                {/* <p>Experimental</p> */}
                 <p>2023</p>
                 <span className="hidden-span">
                   <a
@@ -310,7 +310,7 @@ function Work() {
                       <div className="tilt-box">
                         <img
                           className="hidden-img"
-                          src="Screenshot-font-app.png"
+                          src="Screenshot 2023-09-29 at 3.47.29 PM.png"
                           alt=""
                         />
                       </div>

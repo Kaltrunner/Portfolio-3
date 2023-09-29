@@ -53,7 +53,6 @@
     overflow: hidden;
     color: whitesmoke;
     font-family: 'Syne', sans-serif;
-    /* mix-blend-mode: difference; */
 }
 
 .work-row-text h1 {
@@ -95,7 +94,6 @@
     cursor: pointer;
     background-color: #F8937C;
     color:#242424;
-    /* mix-blend-mode: difference; */
 }
 
 .hidden-span {
@@ -111,7 +109,6 @@
   .hidden-helvetica:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 50%;
     left: 35%;
   }
@@ -119,7 +116,6 @@
   .hidden-new:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 45%;
     left: 35%;
   }
@@ -127,7 +123,6 @@
   .hidden-green:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 40%;
     left: 35%;
   }
@@ -142,13 +137,11 @@
   .hidden-green:hover .hidden-span {
     display: block;
     position: absolute;
-    transform: rotate(90deg);
   }
 
   .hidden-kalt:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 30%;
     left: 35%;
   }
@@ -168,7 +161,6 @@
   .hidden-sid:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 25%;
     left: 35%;
   }
@@ -188,7 +180,6 @@
   .hidden-muse:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 20%;
     left: 35%;
   }
@@ -208,7 +199,6 @@
   .hidden-rudy:hover .hidden-span {
     display: block;
     position: absolute;
-    /* z-index: -1; */
     top: 15%;
     left: 35%;
   }
@@ -223,6 +213,11 @@
   .hidden-rudy:hover .hidden-span {
     display: block;
     position: absolute;
+  }
+
+  #hidden-green {
+    width: 32vw;
+    height: 32vw;
   }
 
   .hidden-img {
