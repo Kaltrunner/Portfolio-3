@@ -85,7 +85,7 @@ function About() {
           <div className="about-row">
             <div className="about-row-text">
               <h1>Hello</h1>
-              <p className="nav-text" id="nav-under-line">
+              <p className="nav-text about-links" id="nav-under-line">
                 <a
                   className="pseudo-text-effect"
                   href="https://github.com/Kaltrunner"
