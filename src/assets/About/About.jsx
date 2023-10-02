@@ -31,10 +31,14 @@ function About() {
           },
           0
         )
-        .to(
+        .fromTo(
           subHeroTitles,
           {
+            opacity: 0,
+          },
+          {
             duration: 1,
+            opacity: 1,
             y: 0,
             stagger: 0.055,
           },
