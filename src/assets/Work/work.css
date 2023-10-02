@@ -207,14 +207,14 @@
 
   .hidden-img {
     width: 32vw;
-    min-width: 12rem;
+    min-width: 8rem;
     z-index: -99;
     cursor: pointer;
   }
 
   .tilt-box-wrap {
     width: 32vw;
-    min-width: 12rem;
+    min-width: 8rem;
     position: relative;
     transition: all .5s ease-out;
     perspective: 1000px;
