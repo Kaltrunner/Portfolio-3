@@ -37,3 +37,21 @@ body {
     pointer-events: none;
     z-index: 99999;
 }
+
+@media only screen and (max-width: 480px) {
+    .splashNav-body-div {
+        justify-content: center;
+    }
+    #clock {
+        display: none;
+    }
+    .hero-row {
+        height: auto;
+    }
+    #est {
+        display: none;
+    }
+    .coordinates {
+        display: none;
+    }
+}
