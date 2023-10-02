@@ -153,11 +153,6 @@
     padding: 0;
   }
 
-  .hidden-kalt:hover .hidden-span {
-    display: block;
-    position: absolute;
-  }
-
   .hidden-sid:hover .hidden-span {
     display: block;
     position: absolute;
@@ -172,11 +167,6 @@
     padding: 0;
   }
 
-  .hidden-sid:hover .hidden-span {
-    display: block;
-    position: absolute;
-  }
-
   .hidden-muse:hover .hidden-span {
     display: block;
     position: absolute;
@@ -189,11 +179,6 @@
     color: inherit;
     margin: 0;
     padding: 0;
-  }
-
-  .hidden-muse:hover .hidden-span {
-    display: block;
-    position: absolute;
   }
 
   .hidden-rudy:hover .hidden-span {
@@ -222,14 +207,14 @@
 
   .hidden-img {
     width: 32vw;
-    min-width: 18rem;
+    min-width: 12rem;
     z-index: -99;
     cursor: pointer;
   }
 
   .tilt-box-wrap {
     width: 32vw;
-    min-width: 18rem;
+    min-width: 12rem;
     position: relative;
     transition: all .5s ease-out;
     perspective: 1000px;

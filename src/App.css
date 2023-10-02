@@ -39,6 +39,9 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    #square-container {
+        display: none;
+    }
     .splashNav-body-div {
         justify-content: center;
     }
@@ -54,4 +57,7 @@ body {
     .coordinates {
         display: none;
     }
+    /* .hidden-helvetica:hover .hidden-span, .hidden-new:hover .hidden-span, .hidden-green:hover .hidden-span, .hidden-green:hover .hidden-span, .hidden-kalt:hover .hidden-span, .hidden-sid:hover .hidden-span, .hidden-muse:hover .hidden-span, .hidden-rudy:hover .hidden-span {
+        display: none;
+    } */
 }
