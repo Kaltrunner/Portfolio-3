@@ -60,9 +60,14 @@ body {
     /* .hidden-helvetica:hover .hidden-span, .hidden-new:hover .hidden-span, .hidden-green:hover .hidden-span, .hidden-green:hover .hidden-span, .hidden-kalt:hover .hidden-span, .hidden-sid:hover .hidden-span, .hidden-muse:hover .hidden-span, .hidden-rudy:hover .hidden-span {
         display: none;
     } */
+    .about-body-div {
+        top: 12rem;
+    }
     .about-row-text {
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-end;
+        z-index: 99;
     }
     .about-lorem-div {
         width: 100%;
