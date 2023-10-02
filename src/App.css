@@ -39,6 +39,9 @@ body {
 }
 
 @media only screen and (max-width: 912px) {
+    #square-container {
+        display: none;
+    }
     .about-lorem-div p {
         font-size: 2.25rem;
     }

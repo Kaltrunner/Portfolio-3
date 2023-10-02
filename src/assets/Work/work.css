@@ -109,14 +109,14 @@
   .hidden-helvetica:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 35%;
   }
 
   .hidden-new:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 35%;
   }
 
@@ -170,7 +170,7 @@
   .hidden-muse:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 35%;
   }
 
@@ -184,7 +184,7 @@
   .hidden-rudy:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 35%;
   }
 

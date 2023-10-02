@@ -9,50 +9,44 @@ function CompNav() {
         <div className="splashNav-body-div">
           <div className="splashNav-body-wrapper">
             <Link id="link" to="/">
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  rel="noreferrer"
-                  data-after="!portfolio"
-                >
-                  <span>!portfolio</span>
-                </a>
+              <p
+                className="nav-text pseudo-text-effect"
+                data-after="!portfolio"
+                id="nav-under-line"
+              >
+                <span>!portfolio</span>
               </p>
             </Link>
             <Link id="link" to="/Work">
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  rel="noreferrer"
-                  data-after="Work"
-                >
-                  <span>Work</span>
-                </a>
+              <p
+                className="nav-text pseudo-text-effect"
+                data-after="Work"
+                id="nav-under-line"
+              >
+                <span>Work</span>
               </p>
             </Link>
             <Link id="link" to="/About">
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                  data-after="About"
-                >
-                  <span>About</span>
-                </a>
+              <p
+                className="nav-text pseudo-text-effect"
+                data-after="About"
+                id="nav-under-line"
+              >
+                <span>About</span>
               </p>
             </Link>
-            <p className="nav-text" id="nav-under-line">
-              <a
-                className="pseudo-text-effect"
-                id="reach-out-link"
-                href="mailto:erikrussells@gmail.com?subject=Hello!"
+            <a
+              id="reach-out-link"
+              href="mailto:erikrussells@gmail.com?subject=Hello!"
+            >
+              <p
+                className="nav-text pseudo-text-effect"
                 data-after="Contact"
+                id="nav-under-line"
               >
                 <span>Contact</span>
-              </a>
-            </p>
+              </p>
+            </a>
           </div>
           <div className="clock-div">
             <Clock />

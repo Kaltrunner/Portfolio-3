@@ -87,10 +87,6 @@ function About() {
     showHero();
   }, []);
 
-  window.onload = () => {
-    initHero();
-  };
-
   return (
     <>
       <Mouse />
@@ -100,70 +96,74 @@ function About() {
           <div className="about-row">
             <div className="about-row-text">
               <h1>Hello</h1>
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  href="https://github.com/Kaltrunner"
-                  target="_blank"
-                  rel="noreferrer"
+              <a
+                href="https://github.com/Kaltrunner"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p
+                  className="nav-text pseudo-text-effect"
                   data-after="GitHub"
+                  id="nav-under-line"
                 >
                   <span>GitHub</span>
-                </a>
-              </p>
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  href="https://www.linkedin.com/in/erik-russell-software-engineer/"
-                  target="_blank"
-                  rel="noreferrer"
+                </p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/erik-russell-software-engineer/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p
+                  className="nav-text pseudo-text-effect"
                   data-after="LinkedIn"
+                  id="nav-under-line"
                 >
                   <span>LinkedIn</span>
-                </a>
-              </p>
-              <p className="nav-text" id="nav-under-line">
-                <a
-                  className="pseudo-text-effect"
-                  href="Erik Russell - Resume.pdf"
-                  download="Erik Russell - Resume"
-                  rel="noreferrer"
+                </p>
+              </a>
+              <a
+                href="Erik Russell - Resume.pdf"
+                download="Erik Russell - Resume"
+                rel="noreferrer"
+              >
+                <p
+                  className="nav-text pseudo-text-effect"
                   data-after="Resume"
+                  id="nav-under-line"
                 >
                   <span>Resume</span>
-                </a>
-              </p>
+                </p>
+              </a>
             </div>
             <div className="about-row-separator"></div>
           </div>
           <div className="about-lorem-div">
-            <p className="lorem">
-              <p className="lorem-line">
-                I'm a Flatiron School graduate and front-end{" "}
-              </p>
-              <p className="lorem-line">
-                engineer with a background in screen printing. My
-              </p>{" "}
-              <p className="lorem-line">
-                passion lies in merging design and technology to
-              </p>{" "}
-              <p className="lorem-line">
-                create user-friendly interfaces that prioritize
-              </p>
-              <p className="lorem-line">
-                usability. I draw from best practices to ensure
-              </p>
-              <p className="lorem-line">
-                efficient and enjoyable navigation experiences. My
-              </p>
-              <p className="lorem-line">
-                goal is to bridge the gap between art and
-              </p>
-              <p className="lorem-line">
-                technology, crafting visually appealing and
-              </p>
-              <p className="lorem-line">functional solutions.</p>
+            <p className="lorem-line">
+              I'm a Flatiron School graduate and front-end{" "}
             </p>
+            <p className="lorem-line">
+              engineer with a background in screen printing. My
+            </p>{" "}
+            <p className="lorem-line">
+              passion lies in merging design and technology to
+            </p>{" "}
+            <p className="lorem-line">
+              create user-friendly interfaces that prioritize
+            </p>
+            <p className="lorem-line">
+              usability. I draw from best practices to ensure
+            </p>
+            <p className="lorem-line">
+              efficient and enjoyable navigation experiences. My
+            </p>
+            <p className="lorem-line">
+              goal is to bridge the gap between art and
+            </p>
+            <p className="lorem-line">
+              technology, crafting visually appealing and
+            </p>
+            <p className="lorem-line">functional solutions.</p>
           </div>
         </div>
       </div>
