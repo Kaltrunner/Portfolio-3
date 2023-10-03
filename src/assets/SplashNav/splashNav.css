@@ -74,7 +74,6 @@
 #nav-under-line {
     color: whitesmoke;
     position: relative;
-    text-decoration: none;
     text-align: center;
   }
 
@@ -87,11 +86,11 @@
     left: 0;
     transform-origin: left;
     transform: scaleX(0);
+    background-color: whitesmoke;
     transition: all .35s ease-in-out;
   }
   #nav-under-line:hover::before {
-    background-color: whitesmoke;
     transform-origin: left;
     transform: scaleX(1);
-    text-align: center;
   }
+  

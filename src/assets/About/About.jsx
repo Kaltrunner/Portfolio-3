@@ -8,13 +8,13 @@ function About() {
   useEffect(() => {
     const hero = document.querySelector(".about-body-container");
     const heroTitles = hero.querySelectorAll(".about-row-text > h1");
-    const subHeroTitles = hero.querySelectorAll(".about-row-text > p");
+    // const subHeroTitles = hero.querySelectorAll("");
     const heroSeparator = hero.querySelectorAll(".about-row-separator");
     const loremLines = hero.querySelectorAll(".lorem-line");
 
     const initHero = () => {
       gsap.set(heroTitles, { y: "101%" });
-      gsap.set(subHeroTitles, { y: "151%" });
+      // gsap.set(subHeroTitles, { y: "101%" });
       gsap.set(heroSeparator, { width: 0 });
       gsap.set(loremLines, { y: "101%" });
     };
@@ -31,19 +31,16 @@ function About() {
           },
           0
         )
-        .fromTo(
-          subHeroTitles,
-          {
-            opacity: 0,
-          },
-          {
-            duration: 1,
-            opacity: 1,
-            y: 0,
-            stagger: 0.055,
-          },
-          0
-        )
+        // .to(
+        //   subHeroTitles,
+        //   {
+        //     duration: 1,
+        //     opacity: 1,
+        //     y: 0,
+        //     stagger: 0.055,
+        //   },
+        //   0
+        // )
         .fromTo(
           loremLines,
           {
