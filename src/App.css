@@ -50,9 +50,9 @@ body {
 }
 
 @media only screen and (max-width: 844px) {
-    .about-row-text h1 {
+    /* .about-row-text h1 {
         font-size: 4rem;
-    }
+    } */
     .about-lorem-div {
         width: 100%;
         margin-top: 1rem;
@@ -87,6 +87,9 @@ body {
     .nav-text {
         line-height: normal;
     }
+    .about-row {
+        height: 19vh;
+    }
     .about-row-text {
         flex-direction: column;
         align-items: center;
@@ -95,7 +98,7 @@ body {
     }
     .about-lorem-div {
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 1.25rem;
     }
     .about-lorem-div p {
         font-size: 1.15rem;
