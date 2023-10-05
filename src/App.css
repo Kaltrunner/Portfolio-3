@@ -87,9 +87,9 @@ body {
     }
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
+@media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
     html {
-      transform: rotate(-90deg);
+      transform: rotate(-45deg);
       transform-origin: left top;
       width: 100vh;
       overflow-x: hidden;
@@ -100,4 +100,4 @@ body {
     .about-lorem-div p {
         font-size: 1rem;
     }
-  } */
+  }
