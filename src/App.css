@@ -9,7 +9,6 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
     background-color: #242424;
 }
 
@@ -41,18 +40,15 @@ body {
 }
 
 @media only screen and (max-width: 912px) {
-    /* #square-container {
-        display: none;
-    } */
     .about-lorem-div p {
         font-size: 2.25rem;
     }
 }
 
 @media only screen and (max-width: 844px) {
-    /* .about-row-text h1 {
-        font-size: 4rem;
-    } */
+    #square-container {
+        display: none;
+    }
     .about-lorem-div {
         width: 100%;
         margin-top: 1rem;
@@ -88,7 +84,7 @@ body {
         line-height: normal;
     }
     .about-row {
-        height: 19vh;
+        height: 20vh;
     }
     .about-row-text {
         flex-direction: column;
@@ -104,18 +100,3 @@ body {
         font-size: 1.15rem;
     }
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-    .about-lorem-div p {
-        font-size: 1rem;
-    }
-  } */
