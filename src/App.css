@@ -31,7 +31,9 @@ body {
 
 .square {
     width: 10vw;
+    min-width: 2rem;
     height: 10vw;
+    min-height: 2rem;
     background-color: #F8937C;
     box-sizing: border-box;
     pointer-events: none;
@@ -39,18 +41,18 @@ body {
 }
 
 @media only screen and (max-width: 912px) {
-    #square-container {
+    /* #square-container {
         display: none;
-    }
+    } */
     .about-lorem-div p {
         font-size: 2.25rem;
     }
 }
 
 @media only screen and (max-width: 540px) {
-    #square-container {
+    /* #square-container {
         display: none;
-    }
+    } */
     .splashNav-body-div {
         justify-content: center;
     }
@@ -87,9 +89,9 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
+/* @media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
     html {
-      transform: rotate(-45deg);
+      transform: rotate(-90deg);
       transform-origin: left top;
       width: 100vh;
       overflow-x: hidden;
@@ -100,4 +102,4 @@ body {
     .about-lorem-div p {
         font-size: 1rem;
     }
-  }
+  } */
