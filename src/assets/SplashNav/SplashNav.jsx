@@ -16,7 +16,7 @@ function SplashNav() {
                 <span>!portfolio</span>
               </p>
             </Link>
-            <Link id="link" to="/Work">
+            <Link className="link" to="/Work">
               <p
                 className="nav-text pseudo-text-effect"
                 data-after="Work"
@@ -25,7 +25,7 @@ function SplashNav() {
                 <span>Work</span>
               </p>
             </Link>
-            <Link id="link" to="/About">
+            <Link className="link" to="/About">
               <p
                 className="nav-text pseudo-text-effect"
                 data-after="About"

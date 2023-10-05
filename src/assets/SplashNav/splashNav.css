@@ -20,7 +20,7 @@
     /* flex-wrap: wrap; */
 }
 
-#link {
+.link {
     text-decoration: none;
     color: whitesmoke;
 }
