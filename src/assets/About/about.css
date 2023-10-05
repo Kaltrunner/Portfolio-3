@@ -21,6 +21,17 @@
     height: 22vh;
 }
 
+.about-link-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.about-link {
+    margin-left: 4vw;
+}
+
 .about-row-text {
     display: flex;
     justify-content: space-between;

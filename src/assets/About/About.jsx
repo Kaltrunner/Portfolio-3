@@ -8,13 +8,11 @@ function About() {
   useEffect(() => {
     const hero = document.querySelector(".about-body-container");
     const heroTitles = hero.querySelectorAll(".about-row-text > h1");
-    // const subHeroTitles = hero.querySelectorAll("");
     const heroSeparator = hero.querySelectorAll(".about-row-separator");
     const loremLines = hero.querySelectorAll(".lorem-line");
 
     const initHero = () => {
       gsap.set(heroTitles, { y: "101%" });
-      // gsap.set(subHeroTitles, { y: "101%" });
       gsap.set(heroSeparator, { width: 0 });
       gsap.set(loremLines, { y: "101%" });
     };
@@ -22,25 +20,19 @@ function About() {
     const showHero = () => {
       gsap
         .timeline({ defaults: { ease: "expo-out" } })
-        .to(
+        .fromTo(
           heroTitles,
           {
+            opacity: 0,
+          },
+          {
+            opacity: 1,
             duration: 1,
             y: 0,
             stagger: 0.055,
           },
           0
         )
-        // .to(
-        //   subHeroTitles,
-        //   {
-        //     duration: 1,
-        //     opacity: 1,
-        //     y: 0,
-        //     stagger: 0.055,
-        //   },
-        //   0
-        // )
         .fromTo(
           loremLines,
           {
@@ -93,45 +85,47 @@ function About() {
           <div className="about-row">
             <div className="about-row-text">
               <h1>Hello</h1>
-              <a
-                href="https://github.com/Kaltrunner"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <p
-                  className="nav-text pseudo-text-effect"
-                  data-after="GitHub"
-                  id="nav-under-line"
+              <div className="about-link-section">
+                <a
+                  href="https://github.com/Kaltrunner"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <span>GitHub</span>
-                </p>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/erik-russell-software-engineer/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <p
-                  className="nav-text pseudo-text-effect"
-                  data-after="LinkedIn"
-                  id="nav-under-line"
+                  <p
+                    className="nav-text pseudo-text-effect about-link"
+                    data-after="GitHub"
+                    id="nav-under-line"
+                  >
+                    <span>GitHub</span>
+                  </p>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/erik-russell-software-engineer/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  <span>LinkedIn</span>
-                </p>
-              </a>
-              <a
-                href="Erik Russell - Resume.pdf"
-                download="Erik Russell - Resume"
-                rel="noreferrer"
-              >
-                <p
-                  className="nav-text pseudo-text-effect"
-                  data-after="Resume"
-                  id="nav-under-line"
+                  <p
+                    className="nav-text pseudo-text-effect about-link"
+                    data-after="LinkedIn"
+                    id="nav-under-line"
+                  >
+                    <span>LinkedIn</span>
+                  </p>
+                </a>
+                <a
+                  href="Erik Russell - Resume.pdf"
+                  download="Erik Russell - Resume"
+                  rel="noreferrer"
                 >
-                  <span>Resume</span>
-                </p>
-              </a>
+                  <p
+                    className="nav-text pseudo-text-effect about-link"
+                    data-after="Resume"
+                    id="nav-under-line"
+                  >
+                    <span>Resume</span>
+                  </p>
+                </a>
+              </div>
             </div>
             <div className="about-row-separator"></div>
           </div>

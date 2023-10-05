@@ -74,15 +74,33 @@ body {
     }
     .about-row-text {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         height: auto;
         flex-wrap: wrap;
     }
     .about-lorem-div {
         width: 100%;
-        margin-top: 9rem;
+        margin-top: 1.5rem;
     }
+    .about-lorem-div p {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 488px) {
     .about-lorem-div p {
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 844px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
