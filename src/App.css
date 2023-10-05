@@ -49,10 +49,16 @@ body {
     }
 }
 
+@media only screen and (max-width: 844px) {
+    .about-lorem-div p {
+        font-size: 1rem;
+    }
+}
+
 @media only screen and (max-width: 540px) {
-    /* #square-container {
+    #square-container {
         display: none;
-    } */
+    }
     .splashNav-body-div {
         justify-content: center;
     }
