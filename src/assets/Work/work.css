@@ -30,7 +30,7 @@
     font-size: 2vh;
     height: 6vh;
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    /* margin-bottom: 2vh; */
     color: #F8937C;
 }
 
@@ -91,7 +91,7 @@
 }
 
 #row-1:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #F8937C;
     color:#242424;
 }
