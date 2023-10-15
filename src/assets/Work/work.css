@@ -109,25 +109,28 @@
   .hidden-helvetica:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-new:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-green:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-green {
@@ -148,6 +151,7 @@
     top: 30%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-kalt {
@@ -160,9 +164,10 @@
   .hidden-sid:hover .hidden-span {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 27%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-sid {
@@ -178,6 +183,7 @@
     top: 25%;
     left: 50%;
     translate: -50%;
+    animation: fade .25s ease-in-out;
   }
 
   .hidden-muse {
@@ -205,6 +211,7 @@
   .hidden-rudy:hover .hidden-span {
     display: block;
     position: absolute;
+    animation: fade .25s ease-in-out;
   }
 
   #hidden-green {
@@ -272,3 +279,12 @@
   .t-over:nth-child(7):hover ~ .tilt-box{ transform: rotateX(8deg) rotateY(8deg) }
   .t-over:nth-child(8):hover ~ .tilt-box{ transform: rotateX(8deg) rotateY(0deg) }
   .t-over:nth-child(9):hover ~ .tilt-box{ transform: rotateX(8deg) rotateY(-8deg) }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
