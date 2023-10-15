@@ -39,10 +39,10 @@ function About() {
             opacity: 0,
           },
           {
-            duration: 1,
+            duration: 1.25,
             opacity: 1,
             y: 0,
-            stagger: 0.055,
+            stagger: 0.13,
           },
           0
         )
