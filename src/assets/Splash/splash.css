@@ -1,12 +1,12 @@
 
 .hero {
-    top: 6rem;
+    top: 10vh;
     position: fixed;
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
-    height: 100%;
+    height: 90vh;
     background-color: #242424;
     overflow: hidden;
 }

@@ -42,7 +42,7 @@ function About() {
             duration: 1.25,
             opacity: 1,
             y: 0,
-            stagger: 0.13,
+            stagger: 0.12,
           },
           0
         )
