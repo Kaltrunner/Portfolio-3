@@ -215,20 +215,19 @@
   }
 
   #hidden-green {
-    width: 32vw;
-    height: 32vw;
+    width: 32rem;
   }
 
   .hidden-img {
     width: 32vw;
-    min-width: 8rem;
+    min-width: 10rem;
     z-index: -99;
     cursor: pointer;
   }
 
   .tilt-box-wrap {
     width: 32vw;
-    min-width: 8rem;
+    min-width: 10rem;
     position: relative;
     transition: all .5s ease-out;
     perspective: 1000px;

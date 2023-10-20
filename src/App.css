@@ -39,6 +39,7 @@ body {
     z-index: 99999;
 }
 
+
 @media only screen and (max-width: 912px) {
     .about-lorem-div p {
         font-size: 2.25rem;

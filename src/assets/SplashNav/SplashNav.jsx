@@ -9,11 +9,8 @@ function SplashNav() {
         <div className="splashNav-body-div">
           <div className="splashNav-body-wrapper">
             <Link id="link" to="#">
-              <p
-                className="nav-text pseudo-text-effect"
-                data-after="!portfolio"
-              >
-                <span>!portfolio</span>
+              <p className="nav-text pseudo-text-effect" data-after="Home">
+                <span>Home</span>
               </p>
             </Link>
             <Link className="link" to="/Work">

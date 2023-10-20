@@ -11,10 +11,10 @@ function CompNav() {
             <Link id="link" to="/">
               <p
                 className="nav-text pseudo-text-effect"
-                data-after="!portfolio"
+                data-after="Home"
                 id="nav-under-line"
               >
-                <span>!portfolio</span>
+                <span>Home</span>
               </p>
             </Link>
             <Link id="link" to="/Work">

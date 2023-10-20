@@ -119,10 +119,10 @@ function About() {
                 >
                   <p
                     className="nav-text pseudo-text-effect about-link"
-                    data-after="Resume"
+                    data-after="↓ Resume"
                     id="nav-under-line"
                   >
-                    <span>Resume</span>
+                    <span>↓ Resume</span>
                   </p>
                 </a>
               </div>
