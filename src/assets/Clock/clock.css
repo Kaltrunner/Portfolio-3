@@ -3,16 +3,16 @@
     /* font-family: 'Syne', sans-serif; */
     font-family: Roboto;
     color: #242424;
-    /* color: whitesmoke; */
+    color: whitesmoke;
     font-size: 1.25rem;
     font-weight: 400;
     height: 3rem;
     width: 7rem;
-    background-color: whitesmoke;
-    /* background-color: #242424; */
+    /* background-color: whitesmoke; */
+    background-color: #242424;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid whitesmoke; */
+    border: 1px solid whitesmoke;
     border-radius: 25rem;
 }

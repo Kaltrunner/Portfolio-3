@@ -75,7 +75,7 @@ body {
         height: auto;
     }
     .hero-row-text h1 {
-        font-size: 5rem;
+        font-size: 4.25rem;
     }
     #est {
         display: none;
@@ -95,8 +95,15 @@ body {
     .work-row {
         height: auto;
     }
+    .work-row h1 {
+        font-size: 4.25rem;
+        text-align: center;
+    }
     .about-row {
         height: auto;
+    }
+    .about-row h1 {
+        font-size: 4.25rem;
     }
     .about-row-text {
         flex-direction: column;
