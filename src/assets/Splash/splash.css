@@ -45,11 +45,45 @@
 }
 
 #est {
+    /* font-family: Roboto; */
     font-size: 8vh;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: .5px;
 }
 
 .coordinates {
-    font-size: 1.25rem;
+    /* font-family: Roboto; */
+    font-size: 1.5vw;
 }
+
+/* .circle {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .75rem;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    animation: anim 8s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.5vw;
+    transform-origin: 0 6vw;
+} */
