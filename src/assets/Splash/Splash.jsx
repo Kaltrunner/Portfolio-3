@@ -70,9 +70,7 @@ function Splash() {
 
     initHero();
     showHero();
-  }, []); // Empty dependency array ensures this code runs only once after initial render
-
-  // const text = " • N 40.7305°, W 73.9515° ";
+  }, []);
 
   return (
     <>
@@ -90,21 +88,8 @@ function Splash() {
           <div className="hero-row">
             <div className="hero-row-text">
               <h1>Front–End</h1>
-              {/* <div className="circle">
-                <div className="text"> */}
-              <p className="coordinates">
-                • N 40.7305°, W 73.9515°
-                {/* {text.split("").map((char, i) => (
-                      <span
-                        key={i}
-                        style={{ transform: `rotate(${i * 8.3}deg)` }}
-                      >
-                        {char}
-                      </span>
-                    ))} */}
-              </p>
-              {/* </div>
-              </div> */}
+
+              <p className="coordinates">• N 40.7305°, W 73.9515°</p>
             </div>
             <div className="hero-row-separator"></div>
           </div>

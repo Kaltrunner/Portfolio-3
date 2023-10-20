@@ -21,7 +21,7 @@ function Clock() {
     m = checkTime(m);
     // s = checkTime(s);
 
-    return h + ":" + m  + " " + ampm;
+    return h + ":" + m + " " + ampm;
   };
 
   const checkTime = (i) => {
@@ -33,6 +33,5 @@ function Clock() {
 
   return <div id="clock">{formattedTime()}</div>;
 }
-
 
 export default Clock;

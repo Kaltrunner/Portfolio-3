@@ -19,8 +19,8 @@ function Mouse() {
           mixBlendMode: "difference",
         }}
         innerStyle={{
-            border: "4px solid #fff",
-            mixBlendMode: "difference",
+          border: "4px solid #fff",
+          mixBlendMode: "difference",
         }}
       />
     </>

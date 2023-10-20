@@ -74,6 +74,9 @@ body {
     .hero-row {
         height: auto;
     }
+    .hero-row-text {
+        font-size: 4rem;
+    }
     #est {
         display: none;
     }
