@@ -81,14 +81,13 @@ function Splash() {
           <div className="hero-row">
             <div className="hero-row-text">
               <h1>Erik Russell</h1>
-              <h1 id="est">Est.2022</h1>
+              <h1 id="est">Est.2023</h1>
             </div>
             <div className="hero-row-separator"></div>
           </div>
           <div className="hero-row">
             <div className="hero-row-text">
               <h1>Front–End</h1>
-
               <p className="coordinates">• N 40.7305°, W 73.9515°</p>
             </div>
             <div className="hero-row-separator"></div>

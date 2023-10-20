@@ -5,10 +5,10 @@
 }
 
 .work-body-div {
-    top: 6rem;
+    top: 10vh;
     position: fixed;
-    width: 90%;
-    height: 100vh;
+    width: 92%;
+    height: 90vh;
     background-color: #242424;
     /* font-family: 'Syne', sans-serif; */
     display: flex;
@@ -18,7 +18,8 @@
 
 .work-row {
     font-size: 12vh;
-    height: 22vh;
+    height: 20vh;
+    /* height: auto; */
 }
 
 .sub-work-row {
@@ -51,8 +52,8 @@
     height: inherit;
     overflow: hidden;
     color: whitesmoke;
-    /* font-family: 'Syne', sans-serif; */
-    font-family: Roboto;
+    font-family: 'Syne', sans-serif;
+    /* font-family: Roboto; */
 }
 
 .work-row-text h1 {
@@ -92,6 +93,7 @@
 
 #row-1:hover {
     /* cursor: pointer; */
+    /* font-weight: 900; */
     background-color: #F8937C;
     color:#242424;
 }

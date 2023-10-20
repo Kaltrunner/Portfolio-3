@@ -74,8 +74,8 @@ body {
     .hero-row {
         height: auto;
     }
-    .hero-row-text {
-        font-size: 4rem;
+    .hero-row-text h1 {
+        font-size: 5rem;
     }
     #est {
         display: none;
@@ -89,8 +89,14 @@ body {
     .nav-text {
         line-height: normal;
     }
+    .hero-row {
+        height: auto;
+    }
+    .work-row {
+        height: auto;
+    }
     .about-row {
-        height: 21vh;
+        height: auto;
     }
     .about-row-text {
         flex-direction: column;
