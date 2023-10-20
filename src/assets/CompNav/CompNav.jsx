@@ -35,7 +35,7 @@ function CompNav() {
                 <span>About</span>
               </p>
             </Link>
-            <a
+            {/* <a
               id="reach-out-link"
               href="mailto:erikrussells@gmail.com?subject=Hello!"
             >
@@ -46,7 +46,7 @@ function CompNav() {
               >
                 <span>Contact</span>
               </p>
-            </a>
+            </a> */}
           </div>
           <div className="clock-div">
             <Clock />

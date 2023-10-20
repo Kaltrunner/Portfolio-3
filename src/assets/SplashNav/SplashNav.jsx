@@ -38,10 +38,10 @@ function SplashNav() {
             >
               <p
                 className="nav-text pseudo-text-effect"
-                data-after="Contact"
+                data-after="Email"
                 id="nav-under-line"
               >
-                <span>Contact</span>
+                <span>Email</span>
               </p>
             </a>
           </div>

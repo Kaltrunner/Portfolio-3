@@ -11,7 +11,7 @@ function Mouse() {
         outerAlpha={0.5}
         innerScale={0}
         outerScale={0.05}
-        trailingSpeed={8}
+        trailingSpeed={4}
         filter={true}
         mixBlendMode={true}
         outerStyle={{

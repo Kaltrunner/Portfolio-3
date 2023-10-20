@@ -119,10 +119,22 @@ function About() {
                 >
                   <p
                     className="nav-text pseudo-text-effect about-link"
-                    data-after="↓ Resume"
+                    data-after="Resume"
                     id="nav-under-line"
                   >
-                    <span>↓ Resume</span>
+                    <span>Resume</span>
+                  </p>
+                </a>
+                <a
+                  id="reach-out-link"
+                  href="mailto:erikrussells@gmail.com?subject=Hello!"
+                >
+                  <p
+                    className="nav-text pseudo-text-effect about-link"
+                    data-after="Email"
+                    id="nav-under-line"
+                  >
+                    <span>Email</span>
                   </p>
                 </a>
               </div>

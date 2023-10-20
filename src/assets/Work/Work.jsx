@@ -81,7 +81,7 @@ function Work() {
           <div className="work-row">
             <div className="work-row-text">
               <h1>Select Work</h1>
-              <h1 id="est">2022 – 23</h1>
+              {/* <h1 id="est">2022 – 23</h1> */}
             </div>
             <div className="work-row-separator"></div>
           </div>

@@ -26,10 +26,11 @@
 }
 
 .nav-text {
-    font-family: 'Syne', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+    font-family: Roboto;
     color: whitesmoke;
     font-size: 1.25rem;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.75;
     margin-right: 4vw;
 }

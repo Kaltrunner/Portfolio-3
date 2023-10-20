@@ -10,7 +10,9 @@
     width: 90%;
     height: 100vh;
     background-color: #242424;
-    font-family: 'Syne', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+    font-family: Roboto;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,7 +40,6 @@
     align-items: flex-end;
     height: inherit;
     overflow: hidden;
-    font-weight: 100;
     color: whitesmoke;
     font-family: 'Syne', sans-serif;
 }
@@ -46,18 +47,17 @@
 .about-row-text h1 {
     padding: 0;
     margin: 0;
-    font-weight: 100;
     font-size: inherit;
     line-height: 1;
 }
 
 .about-lorem-div {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 100%;
 }
 
 .about-lorem-div p {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 3vw;
     line-height: 1.25;
     font-style: italic;

@@ -1,9 +1,10 @@
 
 #clock {
-    font-family: 'Syne', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+    font-family: Roboto;
     color: #242424;
     font-size: 1.25rem;
-    font-weight: 100;
+    font-weight: 400;
     height: 3rem;
     width: 7rem;
     background-color: whitesmoke;
