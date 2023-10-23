@@ -19,7 +19,6 @@
 .about-row {
     font-size: 12vh;
     height: 20vh;
-    /* height: auto; */
 }
 
 .about-link-section {
@@ -48,7 +47,6 @@
     margin: 0;
     font-size: inherit;
     line-height: 1;
-    /* font-weight: 700; */
 }
 
 .about-lorem-div {
@@ -57,10 +55,9 @@
 }
 
 .about-lorem-div p {
-    font-weight: 300;
     font-size: 3vw;
+    font-size: 1.75rem;
     line-height: 1.25;
-    font-style: italic;
     color: whitesmoke;
 }
 

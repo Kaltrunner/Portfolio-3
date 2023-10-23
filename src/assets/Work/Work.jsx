@@ -70,7 +70,7 @@ function Work() {
 
     initHero();
     showHero();
-  }, []); // Empty dependency array ensures this code runs only once after initial render
+  }, []);
 
   return (
     <>
@@ -81,7 +81,6 @@ function Work() {
           <div className="work-row">
             <div className="work-row-text">
               <h1>Select Work</h1>
-              {/* <h1 id="est">2022 – 23</h1> */}
             </div>
             <div className="work-row-separator"></div>
           </div>
@@ -178,7 +177,7 @@ function Work() {
                       <div className="tilt-box">
                         <img
                           className="hidden-img"
-                          src="Screenshot 2023-09-28 at 5.10.54 PM.png"
+                          src="Design-sid-screenshot.png"
                           alt=""
                         />
                       </div>

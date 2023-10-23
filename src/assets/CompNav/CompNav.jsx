@@ -35,18 +35,6 @@ function CompNav() {
                 <span>About</span>
               </p>
             </Link>
-            {/* <a
-              id="reach-out-link"
-              href="mailto:erikrussells@gmail.com?subject=Hello!"
-            >
-              <p
-                className="nav-text pseudo-text-effect"
-                data-after="Contact"
-                id="nav-under-line"
-              >
-                <span>Contact</span>
-              </p>
-            </a> */}
           </div>
           <div className="clock-div">
             <Clock />

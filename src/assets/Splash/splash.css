@@ -37,7 +37,6 @@
     margin: 0;
     font-size: inherit;
     line-height: 1;
-    /* font-weight: 100; */
 }
 
 .hero-row-separator {
@@ -53,4 +52,5 @@
 .coordinates {
     font-family: Roboto;
     font-size: 1.5vw;
+    color: #F8937C;
 }

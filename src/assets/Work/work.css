@@ -19,7 +19,6 @@
 .work-row {
     font-size: 12vh;
     height: 20vh;
-    /* height: auto; */
 }
 
 .sub-work-row {
@@ -59,7 +58,6 @@
 .work-row-text h1 {
     padding: 0;
     margin: 0;
-    /* font-weight: 100; */
     font-size: inherit;
     line-height: 1;
 }
@@ -72,16 +70,16 @@
     line-height: 1;
 }
 
-.work-lorem-div {
+/* .work-lorem-div {
     width: 75%;
-}
+} */
 
-.work-lorem-div p {
+/* .work-lorem-div p {
     font-weight: 100;
     font-size: 3vw;
     line-height: 1.25;
     color: whitesmoke;
-}
+} */
 
 .work-row-separator {
     border: 1px solid gray;
@@ -92,8 +90,6 @@
 }
 
 #row-1:hover {
-    /* cursor: pointer; */
-    /* font-weight: 900; */
     background-color: #F8937C;
     color:#242424;
 }
@@ -216,20 +212,22 @@
     animation: fade .5s ease-in-out;
   }
 
-  #hidden-green {
+  /* #hidden-green {
     width: 32rem;
-  }
+  } */
 
   .hidden-img {
-    width: 32vw;
-    min-width: 10rem;
+    width: 36vw;
+    min-width: 12rem;
     z-index: -99;
     cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px -1px 32px 12px rgba(48,47,47,0.75);
   }
 
   .tilt-box-wrap {
-    width: 32vw;
-    min-width: 10rem;
+    width: 36vw;
+    min-width: 12rem;
     position: relative;
     transition: all .5s ease-out;
     perspective: 1000px;
