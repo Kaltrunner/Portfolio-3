@@ -245,7 +245,7 @@ function Work() {
                         <img
                           className="hidden-img"
                           id="hidden-green"
-                          src="chrome-capture-2023-8-29.gif"
+                          src="Screenshot-the-green-square.png"
                           alt=""
                         />
                       </div>

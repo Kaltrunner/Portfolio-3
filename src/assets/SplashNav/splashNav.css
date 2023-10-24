@@ -60,10 +60,12 @@
   
   &:hover {
     > span {
+      transition-delay: 0.15s;
       transform: translateY(-100%);
       cursor: pointer !important;
     }
     &::after {
+      transition-delay: 0.15s;
       transform: translateY(0%);
       cursor: pointer !important;
       color: #F8937C;
