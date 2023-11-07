@@ -5,10 +5,10 @@
 }
 
 .work-body-div {
-    top: 10vh;
+    top: 14vh;
     position: fixed;
     width: 92%;
-    height: 90vh;
+    height: 86vh;
     background-color: #242424;
     /* font-family: 'Syne', sans-serif; */
     display: flex;
