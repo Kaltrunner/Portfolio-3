@@ -223,11 +223,11 @@ function Work() {
             </div>
             <div className="hidden-green">
               <div className="sub-work-row-text" id="row-1">
-                <p>The Green Square</p>
+                <p>Green Square</p>
                 <p>2022</p>
                 <span className="hidden-span">
                   <a
-                    href="https://a-green-square-project.onrender.com/"
+                    href="https://greensquare.onrender.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -245,7 +245,7 @@ function Work() {
                         <img
                           className="hidden-img"
                           id="hidden-green"
-                          src="Screenshot-the-green-square.png"
+                          src="Green-Square-img.png"
                           alt=""
                         />
                       </div>
@@ -286,7 +286,7 @@ function Work() {
                 </span>
               </div>
             </div>
-            <div className="hidden-helvetica">
+            {/* <div className="hidden-helvetica">
               <div className="sub-work-row-text" id="row-1">
                 <p>Helvetica</p>
                 <p>2023</p>
@@ -317,7 +317,7 @@ function Work() {
                   </a>
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
